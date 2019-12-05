@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/* border: 0; */
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -64,3 +64,89 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+.navigation {
+	color: grey;
+	width: 100%;
+}
+nav a{
+	vertical-align: top;
+}
+.navigation span{
+	width: 75%;
+	vertical-align: top;
+}
+nav span{
+	margin: 4%;
+}
+nav a{
+	margin: 0% 0% 4% 4%;
+}
+header span{
+	padding: 2px 30px 2px 30px;
+	border: 2px solid black;
+	margin: 0 auto;
+}
+header img{
+	width: 30%;
+	margin-left: 10%;
+}
+h1{
+	font-size: 60px;
+	text-align: center;
+}
+header{
+	text-align: center;
+	border-bottom: 2px solid black;
+	padding-top: 5%;
+	/* width: 100%; */
+}
+header div, img{
+	display: inline-block;
+}
+header div{
+	width: 40%;
+	margin-bottom: 10%;
+	
+}
+header h1{
+	letter-spacing: 2px;
+	vertical-align: middle;
+}
+.contentOne div{
+	display: inline-block;
+	width:40%;
+	margin: 4% 2%;
+}
+
+.contentTwo div{
+	display: inline-block;
+	width: 30%;
+	padding: 5% 5% 5% 0%;
+}
+.contentTwo{
+	border-bottom: 2px solid black;
+	margin-bottom: 5%;
+}
+.contentTwo h4{
+	display: inline-block;
+	text-align: left;
+	
+}
+body{
+	margin: 5% 5% 8% 5%;
+}
+footer {
+	margin-top: 5%;
+	margin-bottom: 8%;
+	text-align: center;
+
+}
+.contact address, p{
+	padding: 8px 0px;
+}
+/* *{
+	border: 2px solid red;
+} */
+.middle-img{
+	width: 100%;
+}
