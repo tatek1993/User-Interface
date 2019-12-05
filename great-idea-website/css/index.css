@@ -111,6 +111,7 @@ header div{
 header h1{
 	letter-spacing: 2px;
 	vertical-align: middle;
+	margin-bottom: 20%;
 }
 .contentOne div{
 	display: inline-block;
